@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Lexend Deca', sans-serif;
+}
+header{
+    height: 766px;
+    background-image: url(/images/background-image.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.gradient-overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(49, 59, 89, 0.75);
+}
+.gradient-overlay nav{
+    height: 96px;
+    background-color: #FFFFFF;
+    padding: 22px 165px 21px 169px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 32px;
+    margin-left: 58.18px;
+}
+.menu ul li a{
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;  
+    color: #939CAA;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: #FCB72B;
+}
+.cta a{
+    margin-left: 511px;
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 25px
+}
+.cta a:hover{
+    border: 3px solid #FCB72B;
+    background-color: transparent;
+    color: #FCB72B;
+}
+
+.gradient-overlay #white-bg{
+   height: 116px;
+   margin-top: 650px;
+   background-color: #FFFFFF;
+}
+.gradient-overlay h1{
+    font-family: 'Space Mono', monospace;
+    font-size: 56px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    width: 500px;
+    color: #FFFFFF;
+    margin-top: 153px;
+    margin-left: 165px;
+}
+.gradient-overlay #yellow{
+    margin-top: 40px;
+    display: flex;
+}
+.gradient-overlay #yellow #yellow-content p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    width: 405px;
+    height: 100px;
+    color: #FFFFFF;
+    margin-left: 57px;
+}
+.yellow-img{
+    margin-top: 40px;
+}
+.yellow-img#arrow{
+    margin-left: 40px;
+}
+#yellow-content .cta#yellow-cta a{
+    margin-left: 57px;
+    margin-top: 57px;
+}
+#yellow #white-circle{
+    margin-top: 118px;
+    margin-left: 97px;
+}
+main{
+    background-color: #FFFFFF;
+    margin-top: 0px;
+    margin-top: 208px
+}
+main #line{
+    width: 974px;
+    height: 15px;
+    background-color: #E5ECF4;
+    margin-top: 50px;
+}
+main #one{
+    width: 1275px;
+    height: 291px;
+    margin-top: -60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 165px;
+}
+.yellow-one{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.yellow-one#yell{
+    margin-left: -50px;
+}
+.yellow-one#low{
+    margin-left: -100px;
+}
+.yellow-one-img img{
+    width: 96px;
+    height: 96px;
+}
+.yellow-one h3{
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    color: #495567;
+    margin-top: 40px;
+}
+.yellow-one p{
+    margin-top: 27px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    color: #939CAA;
+}
+.two{
+    margin-top: 147px;
+    height: 498px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 165px;
+}
+.two-grid-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 119px;
+}
+.two-grid-content h1{
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    width: 445px;
+    color: #495567;
+}
+.two-grid-content p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    width: 445px;
+    color: #939CAA;
+    margin-top: 24px;
+}
+.two-grid-content .cta#two-cta a{
+    margin-top: 40px;
+    margin-left: 0px;
+}
+.two-grid-image{
+    margin-left: -150px;
+}
+.grid-img{
+    display: flex;
+}
+.two-img{
+    width: 445px;
+    height: 445px;
+    margin-left: 137px;
+    margin-top: 53px;
+    background-image: url(/images/two-lady.png);
+    border-radius: 445px;
+    background-position: center;
+    background-size: cover;
+}
+.circle-container{
+    width: 445px;
+    height: 445px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 53px;
+    margin-left: -245px;
+}
+.circle{
+    width: 890px;
+    height: 445px;
+    background-color: #E5ECF4;
+    border-radius: 445px;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    z-index: 1;
+}
+.two-arrow{
+    margin-top: -155px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 40px;
+}
+#three{
+    height: 605px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#three #three-grid-img{
+    margin-top: 160px;
+}
+#three #three-grid-img #three-img{
+    display: flex;
+}
+#three-circle{
+    width: 445px;
+    height: 445px;
+    border-radius: 445px;
+    background-color: #E5ECF4;
+    position: relative;
+    margin-left: -330px;
+    overflow: hidden;
+}
+#three-circle #circle-img{
+    width: 890px;
+    height: 445px;
+    background-color: #E5ECF4;
+    border-radius: 445px;
+    position: absolute;
+    left: 300px;
+}
+#three-image{
+    width: 445px;
+    height: 445px;
+    margin-left: 30px;
+    background-image: url(/images/three.png);
+    border-radius: 445px;
+    background-position: center;
+    background-size: cover;
+}
+#three-grid-content{
+    margin-top: 66px;
+    margin-left: 55px;
+}
+#three-arrow{
+    margin-top: -450px;
+    transform: scaleX(-1);
+    position: relative;
+}
+#three-arrow img{
+    position: absolute;
+    left: 400px;
+}
+#four{
+    margin-top: 139px;
+    height: 498px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 165px;
+}
+
+.two-img#four-img{
+    background-image: url(/images/four.png);
+}
+.two-arrow#four-arrow{
+    margin-top: -360px;
+    overflow: hidden;
+    margin-right: -650px;
+   
+}
+.two-arrow#four-arrow img{
+    left: 350px;
+    position: relative;
+}
+footer{
+    margin-top: 178px;
+    height: 396px;
+}
+#footer{
+    height: 300px;
+    background-color: #495567;
+    position: relative;
+}
+#footer #foot-img{
+    margin-top: 140px;
+    margin-left: 440px;
+    position: absolute;
+}
+#footer h1{
+    width: 415px;
+    margin-top: 102px;
+    margin-left: 165px;
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+}
+.sign-up{
+    margin-left: 916px;
+    margin-top: 122px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5ECF4;
+    width: 159px;
+    height: 56px;
+    border-radius: 4px;
+}
+.sign-up img{
+    width: 24.267px;
+    height: 28px;
+}
+.apple{
+    margin-left: 11.73px;
+}
+.apple h3{
+    color: #495567;
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.apple h2{
+    color: #495567;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.9px;
+}
+.sign-up#apple-sign-up{
+    margin-left: 1093px;
+}
+#social{
+    background-color: #333A44;
+    height: 96px;
+}
+#foot-nav{
+    padding: 36px 165px 36px 169px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#social #foot-nav .logo#foot-logo{
+   filter: brightness(100);
+}
+#social-media{
+    display: flex;
+    margin-left: 571px;
+    justify-content: space-between;
+    gap: 10px;
+}
+#social-media .facebook{
+    width: 24px;
+    height: 24px;
+}
+#social-media .facebook:hover{
+    filter: brightness(100);
+}
