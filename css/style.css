@@ -89,7 +89,7 @@ nav .menu-container .logo{
 }
 #header-banner{
     height: 650px;
-    background-image: url(/images/background-image.png);
+    background-image: url(../images/background-image.png);
     background-position: 0px -850px;
     background-size: auto;
     background-repeat: no-repeat;
@@ -247,7 +247,7 @@ main #one{
     height: 445px;
     margin-left: 100px;
     margin-top: 53px;
-    background-image: url(/images/two-lady.png);
+    background-image: url(../images/two-lady.png);
     border-radius: 445px;
     background-position: center;
     background-size: cover;
@@ -297,7 +297,7 @@ main #one{
     width: 445px;
     height: 445px;
     margin-left: -290px;
-    background-image: url(/images/three.png);
+    background-image: url(../images/three.png);
     border-radius: 445px;
     background-position: center;
     background-size: cover;
@@ -321,7 +321,7 @@ main #one{
     margin-left: 165px;
 }
 .two-img#four-img{
-    background-image: url(/images/four.png);
+    background-image: url(../images/four.png);
 }
 #four-arrow{
     margin-top: -270px;
@@ -510,7 +510,7 @@ footer{
     }
     #header-banner{
         height: 650px;
-        background-image: url(/images/background-image.png);
+        background-image: url(../images/background-image.png);
         background-position: 0px -850px;
         background-size: auto;
         background-repeat: no-repeat;
@@ -663,7 +663,7 @@ footer{
         height: 445px;
         margin-left: 100px;
         margin-top: 53px;
-        background-image: url(/images/two-lady.png);
+        background-image: url(../images/two-lady.png);
         border-radius: 445px;
         background-position: center;
         background-size: cover;
@@ -713,7 +713,7 @@ footer{
         width: 445px;
         height: 445px;
         margin-left: -290px;
-        background-image: url(/images/three.png);
+        background-image: url(../images/three.png);
         border-radius: 445px;
         background-position: center;
         background-size: cover;
@@ -737,7 +737,7 @@ footer{
         margin-left: 165px;
     }
     .two-img#four-img{
-        background-image: url(/images/four.png);
+        background-image: url(../images/four.png);
     }
     #four-arrow{
         margin-top: -270px;
@@ -862,7 +862,7 @@ footer{
     }
     #header-banner{
         height: 650px;
-        background-image: url(/images/background-image.png);
+        background-image: url(../images/background-image.png);
         background-position: -550px bottom;
         background-size: auto;
         background-repeat: no-repeat;
@@ -1028,7 +1028,7 @@ footer{
         height: 445px;
         margin-left: 145px;
         margin-top: 53px;
-        background-image: url(/images/two-lady.png);
+        background-image: url(../images/two-lady.png);
         border-radius: 445px;
         background-position: center;
         background-size: cover;
@@ -1083,7 +1083,7 @@ footer{
         margin-left: 400px;
     }
     .two-img#four-img{
-        background-image: url(/images/four.png);
+        background-image: url(../images/four.png);
     }
     footer{
         top: 104px;
@@ -1168,7 +1168,7 @@ footer{
     #menu-bar{
         width: 20px;
         height: 16px;
-        background-image: url(/images/menu-bar.svg);
+        background-image: url(../images/menu-bar.svg);
     }
     .menu-container .menu-top{
         display: none;
@@ -1187,7 +1187,7 @@ footer{
     }
     #header-banner{
         height: 650px;
-        background-image: url(/images/background-image.png);
+        background-image: url(../images/background-image.png);
         background-position: -1100px bottom;
         background-size: auto;
         background-repeat: no-repeat;
@@ -1365,7 +1365,7 @@ footer{
         width: 311px;
         height: 311px;
         margin-left: 0px;
-        background-image: url(/images/three.png);
+        background-image: url(../images/three.png);
         border-radius: 311px;
         background-position: center;
         background-size: cover;
@@ -1408,7 +1408,7 @@ footer{
         overflow: hidden;
     }
     .two-img#four-img{
-        background-image: url(/images/four.png);
+        background-image: url(../images/four.png);
         /* position: absolute; */
     }
     #four-arrow{

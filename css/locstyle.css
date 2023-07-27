@@ -89,7 +89,7 @@ nav .menu-container .logo{
 }
 #header-banner{
     height: 200px;
-    background-image: url(/images/location-header.png);
+    background-image: url(../images/location-header.png);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
