@@ -1,0 +1,118 @@
+:root{
+    --black02: #939CAA;
+    --black03: #FCB72B;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Lexend Deca', sans-serif;
+}
+nav{
+    height: 96px;
+    padding: 0px 165px 0 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-container{
+    display: flex;
+    align-items: center;
+    gap: 58px;
+}
+
+.menu, .menu-top{
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    gap: 32px;
+}
+
+.menu-top a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    color: var(--black02);
+    font-family: 'Space Mono', monospace;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    color: var(--black02);
+    font-family: 'Space Mono', monospace;
+}
+
+.menu-top a:hover{
+    color: #FCB72B;
+}
+.menu, a:hover{
+    color: #FCB72B;
+}
+
+.cta-top, .cta{
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 25px
+}
+.cta:hover{
+    border: 3px solid #FCB72B;
+    background-color: transparent;
+    color: #FCB72B;
+}
+.cta-top:hover{
+    border: 3px solid #FCB72B;
+    background-color: transparent;
+    color: #FCB72B;
+}
+nav .menu-container .logo{
+    width: 108px;
+    height: 89px;
+}
+#header-banner{
+    height: 200px;
+    background-image: url(../images/location-header.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#gradient-overlay{
+    height: 100%;
+    background: rgba(49, 59, 89, 0.75);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 165px;
+}
+#gradient-overlay #arrow-three{
+    height: 62px;
+    width: 234px;
+}
+#gradient-overlay h1{
+    color: #FFFFFF;
+    font-family: 'Space Mono', monospace;
+    font-size: 56px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 56px;
+    letter-spacing: -2.5px; 
+}
