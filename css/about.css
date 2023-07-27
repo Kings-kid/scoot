@@ -1,0 +1,808 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+ 
+html body{
+    font-family: 'Space Mono';
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+}
+
+#nav-bar{
+    display:flex;
+}
+
+#wrapper{
+    display: flex;
+    gap:5px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+#logo{
+    width: 45px;
+    height: 45px;
+}
+
+#menu{
+    display:flex;
+    list-style: none;
+    gap:55px;
+    margin-left: 192px;
+    margin-top: 53px;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+ 
+#menu li a{
+    text-decoration: none;
+    color: #939CAA;
+   /* margin-left: 100px; */
+    margin-top: 53px;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+header nav #get-scootin-cta{
+    padding: 14px 45px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #FCB72B;
+    /* width: 180px; */
+    height: 50px;
+    flex-shrink: 0;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+
+#bitman{
+    right:500px;
+    bottom: 180px;
+    margin-top: 50px;
+
+}
+
+#bitman #bitman-img{
+    height:381px;
+} 
+
+ #bitman #bitman-img img{
+    width: 100%;
+  
+}
+
+#bitman #bitman-img h1{
+    line-height: 60px;
+    margin-left: 100px;
+    margin-top: -130px;
+    text-transform: capitalize;
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+}
+
+
+
+
+/* first started here..... */
+
+main #layer-banner{
+    display: grid;
+    grid-template-columns:  1fr 1fr; 
+    gap: 400px;
+
+ }
+ 
+ main #layer-banner .layer-banner-left{
+     margin-left: 100px;
+     margin-top: 160px;
+     position: relative;
+ }
+
+ main #layer-banner .layer-banner-left h2{
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    display: flex;
+    width: 445px;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding-bottom: 20px;
+}
+
+main #layer-banner .layer-banner-left p{
+    height:84px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    margin-bottom: 20px;
+    display: flex;
+    width: 445px;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 445px;
+    flex-shrink: 0;
+    color: #939CAA;
+    font-family: Lexend Deca;  
+}
+
+main .layer-banner-right .fone{
+    border-radius: 200px;
+    width: 65%;
+    margin-bottom: 450px; 
+    position: relative;
+}
+
+main .layer-banner-right .empty{
+    border-radius: 200px;
+    margin-top: -100px;
+    position: absolute;
+    padding: 40px;
+}
+
+main .layer-banner-right .arrow{
+    margin-top: 220px;
+    position: absolute; 
+    margin-left: -490px;
+    width: 800px;
+    
+}
+
+main .layer-banner-right .cover{
+    margin-top: 185px;
+    position: absolute; 
+    margin-left: -506px;
+
+}
+
+/* first ends here..... */
+
+
+
+
+/* second started here..... */
+
+main #layer-banner-second{
+    display: grid;
+    grid-template-columns:  1fr 1fr; 
+    gap: 100px; 
+
+ }
+ 
+ main #layer-banner-second .layer-banner-second-left{
+    margin-top: 0px;
+    position: relative;
+    bottom: 220px;
+    width: 150%;
+    
+}
+
+main .layer-banner-second-left .fone{
+    border-radius: 250px;
+    width: 42%;
+    padding: 30px;
+}
+
+main .layer-banner-second-left .empty{
+    border-radius: 250px;
+    width: 11%;
+    position: relative;
+    padding: 10px;
+}
+
+main .layer-banner-second-left .arrow{
+    margin-top: 20px;
+    position: absolute; 
+    margin-left: -640px;
+    
+}
+
+main .layer-banner-second-left .cover{
+    margin-top: 80px;
+    position: absolute; 
+    margin-left: -325px;
+
+}
+
+main #layer-banner-second .layer-banner-second-left h2{
+   color: #495567;
+   font-family: Space Mono;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 48px;
+   letter-spacing: -2.143px;
+   display: flex;
+   width: 445px;
+   flex-direction: column;
+   flex-shrink: 0;
+   padding-bottom: 20px;
+   margin-top: 150px;
+  
+
+}
+
+main #layer-banner-second .layer-banner-second-left p{
+   height:84px;
+   font-size: 18px;
+   line-height: 25px;
+   text-align: justify;
+   margin-bottom: 20px;
+   display: flex;
+   width: 445px;
+   flex-direction: column;
+   flex-shrink: 0;
+   display: flex;
+   width: 445px;
+   flex-shrink: 0;
+   color: #939CAA;
+   font-family: Lexend Deca;
+     
+}
+
+/* second ends here..... */
+
+
+
+/* Our values starts here..... */
+
+#Our-values #values{
+    position: relative;
+    
+}
+
+#Our-values #values h1{       
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    padding: 70px;
+}
+
+main #Our-values #our-values-line{
+    display: flex;
+    margin-inline: 200px;
+    gap:60px
+}
+
+main #Our-values #our-values-line .tech img{
+    border-radius: 200px;
+    padding: 25px;
+    margin-left: 50px;
+   
+}
+
+main #Our-values #our-values-line .tech .back-number{
+    margin-top: 215px;
+    width: 110px;
+    position: absolute;
+    margin-left: -215px;
+   
+}
+
+
+main #Our-values #our-values-line .tech .number{
+    margin-top: 235px;
+    width: 75px;
+    position: absolute;
+    margin-left: -200px;
+   
+}
+
+main #Our-values #our-values-line .tech h2{
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: -1.071px;
+    width: 350px;
+    padding: 20px;
+    }
+
+    main #Our-values #our-values-line .tech p{
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    width: 350px;
+
+    }
+
+    main #Our-values #our-values-line .integrity img{
+        border-radius: 200px;
+        padding: 25px;
+        margin-left: 30px;
+       
+    }
+    
+    main #Our-values #our-values-line .integrity .back-number{
+        margin-top: 215px;
+        width: 110px;
+        position: absolute;
+        margin-left: -200px;
+       
+    }
+    
+    
+    main #Our-values #our-values-line .integrity .number{
+        margin-top: 239px;
+        width: 75px;
+        position: absolute;
+        margin-left: -185px;
+       
+    }
+    
+    main #Our-values #our-values-line .integrity h2{
+        color: #495567;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; 
+        letter-spacing: -1.071px;
+        width: 350px;
+        padding: 20px;
+    }
+    
+    main #Our-values #our-values-line .integrity p{
+        color: #939CAA;
+        text-align: center;
+        font-family: Lexend Deca;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; 
+        width: 350px;
+    
+    }
+
+    main #Our-values #our-values-line .community img{
+        border-radius: 200px;
+        padding: 25px;
+        margin-left: 30px;
+       
+    }
+    
+    main #Our-values #our-values-line .community .back-number{
+        margin-top: 215px;
+        width: 110px;
+        position: absolute;
+        margin-left: -200px;
+       
+    }
+    
+    main #Our-values #our-values-line .community .number{
+        margin-top: 239px;
+        width: 75px;
+        position: absolute;
+        margin-left: -185px;
+       
+    }
+    
+    main #Our-values #our-values-line .community h2{
+        color: #495567;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; 
+        letter-spacing: -1.071px;
+        width: 350px;
+        padding: 20px;
+    }
+    
+    main #Our-values #our-values-line .community p{
+        color: #939CAA;
+        text-align: center;
+        font-family: Lexend Deca;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; 
+        width: 350px;
+    
+    }
+
+/* Our values ends here..... */
+
+
+/* FAQS starts here..... */
+
+#faqs  #faqs-section{
+    position: relative;
+    
+}
+
+#faqs  #faqs-section h1{       
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    padding: 70px;
+}
+
+ main #faqs #faqs-section-page{
+    display: flex;
+    margin-inline: 200px;
+    gap:200px
+} 
+
+main #faqs #faqs-section-page .works h1{       
+    color: #495567;
+    width: 350px;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.786px;
+    display: flex;
+    
+}
+
+main #faqs  #faqs-section-page .download h2{
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: -1.071px;
+    background-color: #F2F5F9;
+    flex-shrink: 0;
+    padding: 20px;
+    
+  
+}
+
+#faqs  #faqs-section-page  .download img{
+    margin-left: 230px;
+
+}
+
+#faqs  #faqs-section-page  .download p{
+    background-color: #F2F5F9;
+    color: #495567;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    width: 650px;
+    padding: 20px;
+}
+
+#faqs  #faqs-section-page  .download .img{
+    background-color: #F2F5F9;
+    width: 650px;
+    padding: 20px;
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: -1.071px;
+    margin-top: 10px;
+}
+
+
+#faqs  #faqs-section-page  .download .img img{
+    margin-left: 220px;
+
+}
+
+#faqs  #faqs-section-page  .download .age{
+    background-color: #F2F5F9;
+    width: 650px;
+    padding: 20px;
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: -1.071px;
+    margin-top: 10px;
+}
+
+#faqs  #faqs-section-page  .download .age img{
+    margin-left: 205px;
+
+}
+
+main #faqs #faqs-section-page .driving h1{       
+    color: #495567;
+    width: 350px;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.786px;
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+main #faqs  #faqs-section-page .helmet h2{
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: -1.071px;
+    background-color: #F2F5F9;
+    flex-shrink: 0;
+    padding: 20px;
+    margin-top: 50px;
+    width: 650px;
+    
+  
+}
+
+#faqs  #faqs-section-page  .helmet img{
+    margin-left: 275px;
+
+}
+
+#faqs  #faqs-section-page  .helmet p{
+    background-color: #F2F5F9;
+    color: #495567;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    width: 650px;
+    padding: 20px;
+}
+
+#faqs  #faqs-section-page  .helmet .shade{
+    background-color: #F2F5F9;
+    width: 650px;
+    padding: 20px;
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: -1.071px;
+    margin-top: 10px;
+}
+
+#faqs  #faqs-section-page  .helmet .shade img{
+    margin-left: 125px;
+
+}
+
+#faqs  #faqs-section-page  .helmet .shape{
+    background-color: #F2F5F9;
+    width: 650px;
+    padding: 20px;
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: -1.071px;
+    margin-top: 10px;
+}
+
+#faqs  #faqs-section-page  .helmet .shape img{
+    margin-left: 235px;
+
+}
+/* FAQS ends here..... */
+
+
+
+/* footer starts here..... */
+
+footer #foot{
+    width: 100%;
+    height: 300px;
+    flex-shrink: 0;
+    background-color: #495567;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    
+}
+
+footer #foot-page h1{
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    letter-spacing: -2.143px;
+    /* width: 415px; */
+    padding: 70px;
+    margin-left: 150px;
+}
+   
+footer #foot .logo{
+    display: flex;    
+}
+
+footer #foot #logo .one{
+    display: flex;
+    gap:20px;
+    flex-direction: row;
+    margin-top:100px;
+    margin-left: 150px;
+    
+}
+
+footer #foot #logo .one .logo-one{
+    width: 24.267px;
+    height: 28px;
+    flex-shrink: 0;
+    
+}
+
+footer #foot #logo .one .logo-two img{
+    /* margin-right: -100px; */
+    
+}
+
+
+footer #foot #logo .one .logo-one .store{
+    margin-left:30px;
+    /* right: -400px; */
+    display: flex;
+  
+}
+
+footer #foot #logo .one .logo-one img{
+    margin-top: -20px;
+    top: 100px;
+    margin-right: -100px;
+    padding: 13px;
+    
+}
+
+footer #foot #logo .one .appstore p{
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.446px;
+    
+}
+
+footer #foot #logo .one .appstore h1{
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: -0.893px;
+    margin-left: px;
+}
+
+
+/* nav footer starts here */ 
+
+#nav-bar-footer{
+    display:flex;
+    background: #333A44;
+    /* margin-left: 150px; */
+}
+
+#wrapa{
+    display: flex;
+    gap:10px;
+    margin-top: 40px;
+    margin-left: 200px;
+    
+
+}
+
+#logo-foot{
+    width: 45px;
+    height: 45px;
+    
+}
+
+#menu-two{
+    display:flex;
+    list-style: none;
+    gap:0px;
+    margin-left: px;
+    margin-top: 40px;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+
+}
+ 
+#menu-two li a{
+    text-decoration: none;
+    color: #939CAA;
+    margin-left: 100px; 
+   margin-top: 53px;
+   font-family: Space Mono;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 25px;
+}
+
+
+#nav-bar-footer #group{
+    text-decoration: none;
+    color: #939CAA;
+    margin-left: 420px; 
+   margin-top: 40px;
+
+}
+
+/* nav footer ends here */ 
+
+
+/*footer rings Starts here */ 
+ 
+footer #foot #logo .one .ring-one{
+margin-left: -860px;
+margin-top: 40px;
+}
+
+footer #foot #logo .one .ring-two{
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+footer #foot #logo .one .ring-two{
+     margin-left: 90px;
+     margin-top: 40px;
+}
+/*footer rings ends here */ 
+
+
+/* footer ends here..... */
