@@ -118,18 +118,190 @@ nav .menu-container .logo{
 }
 main{
     margin-top: 0px;
-    
 }
-#map{
+.map{
     height: 543px;
-    margin-top: 320px;
+    margin-top: 120px;
     margin-left: 164px;
     margin-right: 166px;
     background-image: url(../images/map.png);
     background-position: center;
     background-size: cover;
+    position: relative;
+    margin-bottom: 112px;
+    z-index: -1;
 }
-#map #overlay{
-    background-color: rgba(255, 255, 89, 0.75);
+.map::before{
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: -1;
+}
+.map #overlay{
     height: 100%;
 }
+#overlay ul{
+    list-style: none;
+    position: relative;
+}
+#overlay ul .location{
+    height: 88px;
+    width: 189px;
+    background-image: url(../images/state-positions.svg);
+    background-position: center;
+    background-size: cover;
+    color: #495567;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 22px 39px 38px 38px;
+}
+#overlay ul .location#loc-one{
+    margin-top: 71px;
+    margin-left: 147px;
+    position: absolute;
+}
+#overlay ul .location#loc-two{
+    margin-top: 18px;
+    margin-left: 393px;
+    position: absolute;
+}
+#overlay ul .location#loc-three{
+    margin-top: 78px;
+    margin-left: 896px;
+    position: absolute;
+}
+#overlay ul .location#loc-four{
+    margin-top: 251px;
+    margin-left: 779px;
+    position: absolute;
+}
+#map-content{
+    height: 96px;
+    padding: 0px 165px 0px 164px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+#map-content h1{
+    color: #495567;
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    width: 351px;
+    letter-spacing: -2.143px;
+    font-style: normal;
+}
+#map-content p{
+    color: #939CAA;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 445px;
+    font-style: normal;
+    margin-right: 105px;
+}
+footer{
+    margin-top: 120px;
+}
+#footer{
+   height: 300px;
+   background-color: #495567;
+}
+#footer #foot-img{
+    margin-left: 440px;
+    padding: 140px 0px 0px 0px;
+}
+.sign{
+    display: flex;
+    margin-left: 165px;
+    margin-right: 165px;
+    flex-direction: row;
+    align-items: center;
+    gap: 336px;
+    margin-top: -198px;
+}
+#footer h1{
+    color: #FFFFFF;
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    width: 415px;
+}
+
+#foot-tag{
+    display: flex;
+    gap: 18px;
+}
+.sign-up-tag{
+    width: 159px;
+    height: 56px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5ECF4;
+}
+.apple h3{
+    color: #495567;
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.apple h2{
+    color: #495567;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.9px;
+}
+.apple{
+    margin-left: 11.73px;
+}
+.sign-up-tag img{
+    width: 24.267px;
+    height: 28px;
+}
+.sign-up-tag#sign-up{
+    width: 182px;
+}
+#social{
+    height: 96px;
+    margin-top: -2px;
+    background-color: #333A44;
+    display: flex;
+    align-items: center;
+}
+.menu-container#social-one{
+    margin-left: 100px;
+}
+#social-media{
+    display: flex;
+    margin-left: 620px;
+    gap: 10px;
+}
+#social-media .facebook{
+    width: 24px;
+    height: 24px;
+}
+#social-media .facebook:hover{
+    filter: brightness(100);
+}
+.menu-container .logo#foot-logo{
+    filter: brightness(100);
+ }
