@@ -128,7 +128,7 @@ main{
     background-position: center;
     background-size: cover;
     position: relative;
-    margin-bottom: 112px;
+    /* margin-bottom: 112px; */
     z-index: -1;
 }
 .map::before{
@@ -160,6 +160,14 @@ main{
     display: flex;
     padding: 22px 39px 38px 38px;
 }
+#overlay ul li{
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    line-height: 28px;
+    color: #495567;
+    letter-spacing: -1.071px;
+}
 #overlay ul .location#loc-one{
     margin-top: 71px;
     margin-left: 147px;
@@ -179,6 +187,9 @@ main{
     margin-top: 251px;
     margin-left: 779px;
     position: absolute;
+}
+#mobile-list{
+    color: #FFFFFF;
 }
 #map-content{
     height: 96px;
@@ -304,4 +315,422 @@ footer{
 }
 .menu-container .logo#foot-logo{
     filter: brightness(100);
+ }
+ @media screen and (min-width:769px) and (max-width:1440px){
+    html{
+        overflow-x: hidden;
+        width: 1440px;
+    }
+ }
+ @media screen and (min-width:376px) and (max-width:768px){
+    html{
+        overflow-x: hidden;
+        width: 768px;
+    }
+    nav{
+        padding: 0px 40px 0 39px;
+    }
+    #gradient-overlay{
+        padding: 0px 0px 0px 97px;
+    }
+    .map{
+        margin-top: 144px;
+        margin-left: 39px;
+        margin-right: 40px;
+        height: 337px;
+        margin-bottom: 64px;
+    }
+    #overlay ul{
+        list-style: none;
+        position: relative;
+    }
+    #overlay ul .location{
+        height: 40px;
+        width: 120px;
+        background-image: url(../images/state-positions.svg);
+        background-position: center;
+        background-size: cover;
+        color: #495567;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 2px 30px 10px 30px;
+    }
+    #overlay ul li{
+        font-size: 13px;
+        line-height: 28px;
+        letter-spacing: -0.58px;
+    }
+    #overlay ul .location#loc-one{
+        margin-top: 52px;
+        margin-left: 98px;
+        position: absolute;
+    }
+    #overlay ul .location#loc-two{
+        margin-top: 25px;
+        margin-left: 243px;
+        position: absolute;
+    }
+    #overlay ul .location#loc-three{
+        margin-top: 65px;
+        margin-left: 530px;
+        position: absolute;
+    }
+    #overlay ul .location#loc-four{
+        margin-top: 169px;
+        margin-left: 480px;
+        position: absolute;
+    }
+    #map-content{
+        height: 304px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 120px;
+        gap: 40px;
+    }
+    #map-content h1{
+        color: #495567;
+        font-family: 'Space Mono', monospace;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        width: 457px;
+        letter-spacing: -2.143px;
+        font-style: normal;
+        text-align: center;
+    }
+    #map-content p{
+        color: #939CAA;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        width: 573px;
+        font-style: normal;
+        text-align: center;
+    }
+    footer{
+        position: relative;
+    }
+    #footer{
+        background-color: #495567;
+        position: relative;
+        overflow: hidden;
+     }
+     #footer #foot-img{
+        margin-left: -230px;
+        position: absolute;
+    }
+    .sign{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 63px;
+    }
+    #foot-tag{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 198px;
+    }
+    .sign h1{
+        text-align: center;
+    }
+    #social{
+        height: 96px;
+        margin-top: -2px;
+        background-color: #333A44;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .menu-container#social-one{
+        margin-left: 0px;
+    }
+    #social-media{
+        display: flex;
+        margin-left: 620px;
+        gap: 10px;
+        position: absolute;
+    }
+    #social-media .facebook{
+        width: 24px;
+        height: 24px;
+    }
+    #social-media .facebook:hover{
+        filter: brightness(100);
+    }
+    .menu-container .logo#foot-logo{
+        filter: brightness(100);
+     }
+ }
+ @media screen and (min-width:0px) and (max-width:375px){
+    html{
+        overflow-x: hidden;
+        width: 375px;
+    }
+    nav{
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 150px 0px 32px;
+    }
+    .menu-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #menu-bar{
+        width: 20px;
+        height: 16px;
+        background-image: url(../images/menu-bar.svg);
+    }
+    .menu-container .menu-top{
+        display: none;
+        padding: 0;
+        list-style-type: none;
+        gap: 32px;
+    }
+    .menu-container .menu{
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+        gap: 32px;
+    }
+    .cta-top{
+        display: none;
+    }
+    #gradient-overlay{
+        height: 100%;
+        background: rgba(49, 59, 89, 0.75);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 32px 0px 32px;
+    }
+    #gradient-overlay #arrow-three{
+        height: 62px;
+        width: 234px;
+        display: none;
+    }
+    #gradient-overlay h1{
+        color: #FFFFFF;
+        font-family: 'Space Mono', monospace;
+        font-size: 40px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 40px;
+        letter-spacing: -1.786px; 
+    }
+    .map{
+        margin-top: 72px;
+        margin-left: 32px;
+        margin-right: 32px;
+        height: 152px;
+        margin-bottom: 40px;
+    }
+    #overlay ul{
+        list-style: none;
+        position: relative;
+    }
+    #overlay ul .location{
+        height: 16px;
+        width: 16px;
+        border-radius: 16px;
+        background-image: url(../images/oval.svg);
+        background-position: center;
+        background-size: cover;
+        color: transparent;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 0px;
+    }
+    #overlay ul li{
+        font-size: 13px;
+        line-height: 28px;
+        letter-spacing: -0.58px;
+    }
+    #overlay ul .location#loc-one{
+        margin-top: 33px;
+        margin-left: 67px;
+        position: absolute;
+    }
+    #overlay ul .location#loc-two{
+        margin-top: 22px;
+        margin-left: 132px;
+        position: absolute;
+    }
+    #overlay ul .location#loc-three{
+        margin-top: 41px;
+        margin-left: 259px;
+        position: absolute;
+    }
+    #overlay ul .location#loc-four{
+        margin-top: 87px;
+        margin-left: 237px;
+        position: absolute;
+    }
+    #mobile-list ul{
+        display: flex;
+        padding: 0px 32px 72px 32px;
+        list-style: none;
+        flex-direction: column;
+        gap: 16px;
+    }
+    #mobile-list ul .list{
+        height: 72px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: rgba(252, 183, 43, 0.15);
+    }
+    #mobile-list ul li{
+        color: #495567;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.071px;
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+    }
+    #map-content{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 72px;
+        gap: 32px;
+ 
+    }
+    #map-content h1{
+        color: #495567;
+        font-family: 'Space Mono', monospace;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        width: 311px;
+        letter-spacing: -2.143px;
+        font-style: normal;
+        text-align: center;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    #map-content p{
+        color: #939CAA;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        width: 311px;
+        height: 125px;
+        font-style: normal;
+        text-align: center;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    footer{
+        margin-top: 0px;
+    }
+    #footer{
+       height: 300px;
+       background-color: #495567;
+    }
+    #footer #foot-img{
+        margin-left: -600px;
+        padding: 140px 0px 0px 0px;
+    }
+    .sign{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-top: -230px;
+    }
+    #footer h1{
+        color: #FFFFFF;
+        font-family: 'Space Mono', monospace;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -1.429px;
+        width: 311px;
+        text-align: center;
+    }
+    #foot-tag{
+        gap: 13px;
+    }
+    .sign-up-tag{
+        width: 130px;
+        height: 40px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #E5ECF4;
+    }
+    .apple h3{
+        color: #495567;
+        font-family: 'Space Mono', monospace;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .apple h2{
+        color: #495567;
+        font-family: 'Space Mono', monospace;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.9px;
+    }
+    .apple{
+        margin-left: 8px;
+    }
+    .sign-up-tag img{
+        width: 20px;
+        height: 24px;
+    }
+    .sign-up-tag#sign-up{
+        width: 150px;
+    }
+    #social{
+        height: 438px;
+        margin-top: -2px;
+        background-color: #333A44;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-bar-bottom{
+        display: none;
+    }
+    .menu-container#social-one{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    #menu-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #social-media{
+        display: flex;
+        margin-left: 0px;
+        gap: 10px;
+        margin-top: 85px;
+    }
+    
  }

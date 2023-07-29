@@ -163,11 +163,12 @@ main #one{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 165px;
+    margin-right: 165px;
 }
 .yellow-one{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .yellow-one-img img{
@@ -430,24 +431,27 @@ footer{
         padding: 0;
         box-sizing: border-box;
     }
-    html, body{
+    html{
+        overflow-x: hidden;
+        width: 1440px;
         height: 100%;
         font-family: 'Space Mono', monospace;
         font-family: 'Lexend Deca', sans-serif;
     }
     nav{
         height: 96px;
-        padding: 0px 165px 0 169px;
+        padding: 0px 165px 0 110px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     
-    .menu-containertop{
+    .menu-container{
         display: flex;
         align-items: center;
         gap: 58px;
     }
+    
     .menu, .menu-top{
         display: flex;
         padding: 0;
@@ -455,14 +459,6 @@ footer{
         gap: 32px;
     }
     
-    .menu a{
-        text-decoration: none;
-        font-size: 15px;
-        font-weight: 700;
-        line-height: 25px;
-        color: var(--black02);
-        font-family: 'Space Mono', monospace;
-    }
     .menu-top a{
         text-decoration: none;
         font-size: 15px;
@@ -471,11 +467,19 @@ footer{
         color: var(--black02);
         font-family: 'Space Mono', monospace;
     }
+    .menu a{
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 25px;
+        color: var(--black02);
+        font-family: 'Space Mono', monospace;
+    }
     
-    .menu a:hover{
+    .menu-top a:hover{
         color: #FCB72B;
     }
-    .menu-top a:hover{
+    .menu, a:hover{
         color: #FCB72B;
     }
     
@@ -494,12 +498,12 @@ footer{
         font-style: normal;
         line-height: 25px
     }
-    .cta-top:hover{
+    .cta:hover{
         border: 3px solid #FCB72B;
         background-color: transparent;
         color: #FCB72B;
     }
-    .cta:hover{
+    .cta-top:hover{
         border: 3px solid #FCB72B;
         background-color: transparent;
         color: #FCB72B;
@@ -563,6 +567,11 @@ footer{
     #banner-content #arrow-three{
         padding-top: 100px;
     }
+    #white-bg{
+        height: 50px;
+        margin-top: 110px;
+        background-color: #FFFFFF;
+    }
     main{
         background-color: #FFFFFF;
         margin-top: 0px;
@@ -579,11 +588,12 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin-left: 165px;
+        margin-right: 165px;
     }
     .yellow-one{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
     }
     
     .yellow-one-img img{
@@ -840,7 +850,6 @@ footer{
         filter: brightness(100);
      }
     
-
  }
 @media screen and (min-width:376px) and (max-width:768px){
     *{
@@ -848,17 +857,15 @@ footer{
         padding: 0;
         box-sizing: border-box;
     }
-    html, body{
+    html{
+        overflow-x: hidden;
+        width: 768px;
         height: 100%;
         font-family: 'Space Mono', monospace;
         font-family: 'Lexend Deca', sans-serif;
     }   
     nav{
-        height: 96px;
         padding: 0px 40px 0 39px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
     #header-banner{
         height: 650px;
@@ -1142,13 +1149,10 @@ footer{
         filter: brightness(100);
      }
 }
-@media screen and (max-width:375px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    html, body{
+@media screen and (min-width:0px) and (max-width:375px){
+    html{
+        overflow-x: hidden;
+        width: 375px;
         height: 100%;
         font-family: 'Space Mono', monospace;
         font-family: 'Lexend Deca', sans-serif;
@@ -1216,7 +1220,7 @@ footer{
         display: flex;
         flex-direction: column;
         margin-top: 0px;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     #banner-content #arrow-one{
         display: none;
@@ -1252,14 +1256,14 @@ footer{
     main #one{
         display: flex;
         flex-direction: column;
-        margin-left: 0px;
+        /* margin-left: 0px; */
         gap: 48px;
     }
     main #one .yellow-one{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;  
+        align-items: center;
     }
     main #one .yellow-one-img img{
         width: 96px;
@@ -1273,6 +1277,8 @@ footer{
         line-height: 25px;
         color: #495567;
         margin-top: 24px;
+        width: 311px;
+        text-align: center;
     }
     main #one .yellow-one p{
         font-family: 'Lexend Deca', sans-serif;
