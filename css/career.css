@@ -66,6 +66,10 @@ body p{
     line-height: 25px;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 .b-circle{
     width: 445px;
@@ -188,7 +192,7 @@ body p{
     padding-left: 169px;
 }
 
-nav h2{
+nav h2 a{
     font-family: Space Mono;
     font-size: 48px;
     font-weight: 700;
@@ -259,9 +263,7 @@ nav ul a {
     margin-top: 68.5px;
 }
 
-#main{
-    margin-left: 165px;
-    margin-top: 123px;
+#main{    
     width: 1440px;
 }
 
@@ -270,6 +272,8 @@ nav ul a {
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
     width: 1271.4px;
+    margin-left: 165px;
+    margin-top: 123px;
 }
 
 #main #mission .left{
@@ -306,6 +310,7 @@ nav ul a {
     text-align: center;
     margin-top: 123px;
     width: 1110px;
+    margin-left: 165px;
 }
 
 #main #join #join-columns{
@@ -358,7 +363,8 @@ nav ul a {
     flex-direction: row;
     gap: 176px;
     margin-bottom: 24px;
-    padding-left: 40px;
+    /* padding-left: 40px; */
+    margin-left: 165px;
 }
 
 #main #apply .apply-banner .banner-text{
@@ -369,6 +375,7 @@ nav ul a {
     display: flex;
     flex-direction: column;
     padding-top: 32px;
+    margin-left: 40px;
 }
 
 #main #apply .apply-banner .banner-button{
@@ -393,12 +400,12 @@ nav ul a {
     width: 415px;
     height: 96px;
     margin-left: 165px;
-    padding-top: 102px;
-    padding-bottom: 102px;
+    margin-top: 52px;
+    /* margin-bottom: 102px; */
     position: absolute;
 }
 
-#footer #f-banner #download{
+/* #footer #f-banner #download{
     display: flex;
     flex-direction: row;
     gap: 18px;
@@ -406,7 +413,7 @@ nav ul a {
     margin-bottom: 122px;
     margin-left: 916px;
     position: absolute;
-}
+} */
 
 #footer #f-banner #download #apple{
     width: 159px;
@@ -432,7 +439,7 @@ nav ul a {
     padding-left: 16px;
 }
 
-#footer #f-banner #foot-circles{
+/* #footer #f-banner .foot-circles{
     display: flex;
     flex-direction: row;
     position: relative;
@@ -441,7 +448,7 @@ nav ul a {
     flex-shrink: 0;
     top: 140px;
     left: 400px;
-}
+} */
 
 #footer #foot{
     background-color: #333A44;
@@ -457,3 +464,966 @@ nav ul a {
 #footer #foot #socials{
     margin-left: 571px;
 }
+
+/* For tablets with screen width between 768px and 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet-specific CSS styles go here */
+    body{
+        margin: 0px;
+    }
+    
+    body h3{
+        font-family: Space Mono;
+        font-size: 48px;
+        color: #495567;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2.143px;
+    }
+    
+    body h4{
+        font-family: Space Mono;
+        font-size: 24px;
+        color: #495567;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -1.071px;
+    }
+    
+    body button{
+        color: #FFF;
+        background-color: #FCB72B;
+        width: 180px;
+        height: 53px;
+        border: none;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    
+    body button:active{
+        background-color: #FFF;
+        color: #FCB72B;
+        border: 3px solid #FCB72B;
+        cursor: url(../images/career/pointer.svg), pointer;
+    }
+    
+    body button:hover::poin{
+        color: #FFF;
+        background-color: #FCB72B;
+        width: 180px;
+        height: 53px;
+        border: none;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    
+    body p{
+        color: #939CAA;
+        font-family: Lexend Deca;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 25px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    
+    .b-circle{
+        width: 445px;
+        height: 445px;
+        border-radius: 50%;
+    }
+    
+    .grey-circle{
+        width: 445px;
+        height: 445px;
+        border-radius: 50%;
+        background-color: #E5ECF4;
+        overflow: hidden;
+    }
+    
+    .s-circle{
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+        position: relative;
+    }
+    
+    .ss-circle{
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        background-color: #FCB72B;
+    }
+    
+    .sss-circle{
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+        background-color: none;
+        border: 3px solid #FFF;
+    }
+    
+    .sss-circle-filled{
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+        background-color: #FFF;
+    }
+    
+    .f-circle{
+        width: 347px;
+        height: 347px;
+        border-radius: 50%;
+        border: 15px solid #E5ECF4;
+        opacity: 0.10000000149011612;
+    }
+    
+    .f-circle-filled{
+        width: 347px;
+        height: 347px;
+        border-radius: 50%;
+        background-color:#E5ECF4;
+        opacity: 0.10000000149011612;
+    }
+    
+    
+    .jh4{
+        margin-top: 64px;
+        margin-bottom: 27px;
+    }
+    
+    .fh3{
+        color: #FFF;
+    }
+    
+    .d-text p{
+        font-family: Space Mono;
+        font-size: 10px;
+        color: #495567;
+        font-weight: 700;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.446px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .d-text h1{
+        font-family: Space Mono;
+        font-size: 20px;
+        color: #495567;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 24px;
+        letter-spacing: -0.446px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .d-logo{
+        width: 24.2px;
+        height: 28.0px;
+        margin-top: 14px;
+        margin-bottom: 14px;
+    }
+    
+    .no-margin{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #header {
+        width: 768px;
+        height: 299px;
+    }
+    
+    #header #nav {
+        width: 729px;
+        height: 96px;
+        display: flex;
+        flex-direction: row;
+        background-color: #FFF;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 39px;
+    }
+    
+    nav h2 a{
+        font-family: Space Mono;
+        font-size: 48px;
+        font-weight: 700;
+        margin-right: 58.18px;
+        color: #495567;
+    }
+    
+    nav ul{
+        font-family: Space Mono;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 25px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+    
+    nav ul a {
+        text-decoration: none;
+        color: #939CAA;
+    }
+    
+    #header #nav button{
+        /* margin-left: 94px; */
+        margin-left: 40px;
+    }
+    
+    #header #h-banner{
+        width: 768px;
+        height: 203px;
+        background-image:url(../images/career/bitmap.svg);
+        opacity: 0.75;
+        flex-shrink: 0;
+        background-color: #32436e;
+        background-blend-mode: multiply;
+    }
+    
+    /* #header #h-banner:active > #career{
+        display: flex;
+        flex-direction: row;
+        margin-left: 165px;
+        gap: 830px;
+    } */
+    
+    #header #h-banner #career{
+        display: flex;
+        flex-direction: row;
+        margin-left: 90px;
+        gap: 242px;
+    }
+    
+    #header #h-banner #career h1{
+        color: #FFF;
+        font-family: Space Mono;
+        font-style: normal;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        margin-top: 72px;    
+    }
+    
+    #header #h-banner #career #c-circles{
+        display: flex;
+        flex-direction: row;
+        gap: 31px;
+        margin-top: 68.5px;
+    }
+    
+    #main{
+        width: 768px;
+    }
+    
+    #main #mission{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 64px;
+        overflow: visible;
+    }
+    
+    #main #mission .left{        
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #main #mission .right{
+        display: flex;
+        flex-direction: row;
+        gap: 64px;
+    }
+    
+    #main #mission .right #boy{
+        background-image: url(../images/career/boy.svg);
+        position: relative;
+    }
+    
+    #main #mission .right #boy #arrow{
+        position: absolute;
+        top: 300px;
+        right: -170px;
+    }
+    #main #mission .right #boy #arrow-head{
+        position: absolute;
+        top: 363px;
+        right: 531px;
+    }
+    
+    #main #join{
+        text-align: center;
+        margin-top: 120px;
+        width: 457px;
+        align-self: center;
+    }
+    
+    #main #join #join-columns{
+        display: grid;
+        grid-template-rows: 475px 475px 475px;
+        grid-template-columns: 457px;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+        margin-top: 87px;
+    }
+    
+    #main #join #join-columns #j-left{
+        position: relative;
+    }
+    
+    #join-columns #j-left #j-left-circle{
+        text-align: center;
+        position: absolute;
+        top: 190px;
+        left: 180px;
+    }
+    
+    #main #join #join-columns #j-middle{
+        position: relative;
+    }
+    
+    #join-columns #j-middle #j-middle-circle{
+        text-align: center;
+        position: absolute;
+        top: 190px;
+        left: 180px;
+    }
+    
+    #main #join #join-columns #j-right{
+        position: relative;
+    }
+    
+    #join-columns #j-right #j-right-circle{
+        text-align: center;
+        position: absolute;
+        top: 190px;
+        left: 180px;
+    }
+    
+    #main #apply{
+        margin-top: 120px;
+        width: 768px;
+        /* padding-left: 39px;
+        padding-right: 40px;        
+        align-items: start; */
+        /* display: flex;
+        align-items: center;
+        flex-direction: column; */
+    }
+    
+    #main #apply .apply-banner{
+        background-color: #F2F5F9;
+        height: 128px;
+        display: flex;
+        flex-direction: row;
+        gap: 99px;
+        margin-bottom: 16px;
+        /* padding-left: 48px; */
+        width: 689px;
+        margin-left: 39px;
+        margin-right: 40px;
+    }
+    
+    #main #apply .apply-banner .banner-text{
+        gap: 8px;
+        width: 314px;
+        height: 61px;
+        line-height: 0px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+    }
+    
+    #main #apply .apply-banner .banner-button{
+        margin-top: 38px;
+        margin-bottom: 37px;
+        margin-right: 48px;
+    }
+    
+    #footer{
+        margin-top: 120px;
+        width: 768px;
+    }
+    
+    #footer #f-banner{
+        background-color: #495567;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        overflow: visible;
+        position: relative;
+        /* text-align: center; */
+    }
+    
+    #footer #f-banner #f-text{
+        width: 457px;
+        height: 96px;
+        text-align: center;
+        margin-top: 6px;
+        /* position: relative; */
+        /* margin-left: 155px; */
+        /* margin-top: 62px; */
+        /* margin-bottom: 142px; */
+        /* position: absolute; */
+    }
+    
+    #footer #f-banner #download{
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+        margin-top: 190px;
+        /* margin-bottom: 122px; */
+        /* margin-left: 916px; */
+        /* position: absolute; */
+        justify-content: center;
+        align-content: center;
+        width: 768px;
+    }
+    
+    #footer #f-banner #download #apple{
+        width: 159px;
+        height: 56px;
+        background: #E5ECF4;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        gap: 11.73px;
+        padding-top: 8px;
+        padding-left: 16px;
+    }
+    
+    #footer #f-banner #download #google{
+        width: 182px;
+        height: 56px;
+        background: #E5ECF4;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        gap: 12.1px;
+        padding-top: 8px;
+        padding-left: 16px;
+    }
+    
+    #footer #foot-circles{
+        display: flex;
+        flex-direction: row;
+        gap: 56px;
+        overflow: hidden;
+        flex-shrink: 0;
+        bottom: -140px;
+        left: 400px;
+        width: 768px;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    #footer #foot{
+        background-color: #333A44;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 1271.4px;
+        height: 96px;    
+        justify-content: flex-start;
+        padding-left: 168.6px;
+    }
+    
+    #footer #foot #socials{
+        margin-left: 571px;
+    }
+  }
+
+
+  /* For mobile phones with screen width up to 767px */
+@media screen and (max-width: 767px) {
+    /* Your mobile phone-specific CSS styles go here */
+    body{
+        margin: 0px;
+    }
+    
+    body h3{
+        font-family: Space Mono;
+        font-size: 48px;
+        color: #495567;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2.143px;
+    }
+    
+    body h4{
+        font-family: Space Mono;
+        font-size: 24px;
+        color: #495567;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -1.071px;
+    }
+    
+    body button{
+        color: #FFF;
+        background-color: #FCB72B;
+        width: 180px;
+        height: 53px;
+        border: none;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    
+    body button:active{
+        background-color: #FFF;
+        color: #FCB72B;
+        border: 3px solid #FCB72B;
+        cursor: url(../images/career/pointer.svg), pointer;
+    }
+    
+    body button:hover::poin{
+        color: #FFF;
+        background-color: #FCB72B;
+        width: 180px;
+        height: 53px;
+        border: none;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    
+    body p{
+        color: #939CAA;
+        font-family: Lexend Deca;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 25px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    
+    .b-circle{
+        width: 445px;
+        height: 445px;
+        border-radius: 50%;
+    }
+    
+    .grey-circle{
+        width: 445px;
+        height: 445px;
+        border-radius: 50%;
+        background-color: #E5ECF4;
+        overflow: hidden;
+    }
+    
+    .s-circle{
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+        position: relative;
+    }
+    
+    .ss-circle{
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        background-color: #FCB72B;
+    }
+    
+    .sss-circle{
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+        background-color: none;
+        border: 3px solid #FFF;
+    }
+    
+    .sss-circle-filled{
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+        background-color: #FFF;
+    }
+    
+    .f-circle{
+        width: 347px;
+        height: 347px;
+        border-radius: 50%;
+        border: 15px solid #E5ECF4;
+        opacity: 0.10000000149011612;
+    }
+    
+    .f-circle-filled{
+        width: 347px;
+        height: 347px;
+        border-radius: 50%;
+        background-color:#E5ECF4;
+        opacity: 0.10000000149011612;
+    }
+    
+    
+    .jh4{
+        margin-top: 64px;
+        margin-bottom: 27px;
+    }
+    
+    .fh3{
+        color: #FFF;
+    }
+    
+    .d-text p{
+        font-family: Space Mono;
+        font-size: 10px;
+        color: #495567;
+        font-weight: 700;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.446px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .d-text h1{
+        font-family: Space Mono;
+        font-size: 20px;
+        color: #495567;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 24px;
+        letter-spacing: -0.446px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .d-logo{
+        width: 24.2px;
+        height: 28.0px;
+        margin-top: 14px;
+        margin-bottom: 14px;
+    }
+    
+    .no-margin{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #header {
+        width: 1440px;
+        height: 299px;
+    }
+    
+    #header #nav {
+        width: 1440px;
+        height: 96px;
+        display: flex;
+        flex-direction: row;
+        background-color: #FFF;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 169px;
+    }
+    
+    nav h2 a{
+        font-family: Space Mono;
+        font-size: 48px;
+        font-weight: 700;
+        margin-right: 58.18px;
+        color: #495567;
+    }
+    
+    nav ul{
+        font-family: Space Mono;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 25px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+    
+    nav ul a {
+        text-decoration: none;
+        color: #939CAA;
+    }
+    
+    #header #nav button{
+        margin-left: 511px;
+    }
+    
+    #header #h-banner{
+        width: 1440px;
+        height: 203px;
+        background-image:url(../images/career/bitmap.svg);
+        opacity: 0.75;
+        flex-shrink: 0;
+        background-color: #32436e;
+        background-blend-mode: multiply;
+    }
+    
+    #header #h-banner:active > #career{
+        display: flex;
+        flex-direction: row;
+        margin-left: 165px;
+        gap: 830px;
+    }
+    
+    #header #h-banner #career{
+        display: none;
+        /* display: flex;
+        flex-direction: row;
+        margin-left: 165px;
+        gap: 830px; */
+    }
+    
+    #header #h-banner #career h1{
+        color: #FFF;
+        font-family: Space Mono;
+        font-style: normal;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        margin-top: 72px;    
+    }
+    
+    #header #h-banner #career #c-circles{
+        display: flex;
+        flex-direction: row;
+        gap: 31px;
+        margin-top: 68.5px;
+    }
+    
+    #main{
+        margin-left: 165px;
+        margin-top: 123px;
+        width: 1440px;
+    }
+    
+    #main #mission{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+        width: 1271.4px;
+    }
+    
+    #main #mission .left{
+        width: 445px;
+        margin-right: 213px;
+        gap: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #main #mission .right{
+        display: flex;
+        flex-direction: row;
+        gap: 64px;
+    }
+    
+    #main #mission .right #boy{
+        background-image: url(../images/career/boy.svg);
+        position: relative;
+    }
+    
+    #main #mission .right #boy #arrow{
+        position: absolute;
+        top: 300px;
+        right: -170px;
+    }
+    #main #mission .right #boy #arrow-head{
+        position: absolute;
+        top: 363px;
+        right: 531px;
+    }
+    
+    #main #join{
+        text-align: center;
+        margin-top: 123px;
+        width: 1110px;
+    }
+    
+    #main #join #join-columns{
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+    }
+    
+    #main #join #join-columns #j-left{
+        position: relative;
+    }
+    
+    #join-columns #j-left #j-left-circle{
+        text-align: center;
+        position: absolute;
+        top: 190px;
+        left: 130px;
+    }
+    
+    #main #join #join-columns #j-middle{
+        position: relative;
+    }
+    
+    #join-columns #j-middle #j-middle-circle{
+        text-align: center;
+        position: absolute;
+        top: 190px;
+        left: 130px;
+    }
+    
+    #main #join #join-columns #j-right{
+        position: relative;
+    }
+    
+    #join-columns #j-right #j-right-circle{
+        text-align: center;
+        position: absolute;
+        top: 190px;
+        left: 130px;
+    }
+    
+    #main #apply{
+        margin-top: 123px;
+    }
+    
+    #main #apply .apply-banner{
+        background-color: #F2F5F9;
+        width: 1110px;
+        height: 128px;
+        display: flex;
+        flex-direction: row;
+        gap: 176px;
+        margin-bottom: 24px;
+        padding-left: 40px;
+    }
+    
+    #main #apply .apply-banner .banner-text{
+        gap: 8px;
+        width: 650px;
+        height: 61px;
+        line-height: 0px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+    }
+    
+    #main #apply .apply-banner .banner-button{
+        margin-top: 38px;
+        margin-bottom: 37px;
+    }
+    
+    #footer{
+        margin-top: 136px;
+    }
+    
+    #footer #f-banner{
+        background-color: #495567;
+        width: 1440px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+    
+    #footer #f-banner #f-text{
+        width: 415px;
+        height: 96px;
+        margin-left: 165px;
+        padding-top: 102px;
+        padding-bottom: 102px;
+        position: absolute;
+    }
+    
+    #footer #f-banner #download{
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+        margin-top: 122px;
+        margin-bottom: 122px;
+        margin-left: 916px;
+        position: absolute;
+    }
+    
+    #footer #f-banner #download #apple{
+        width: 159px;
+        height: 56px;
+        background: #E5ECF4;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        gap: 11.73px;
+        padding-top: 8px;
+        padding-left: 16px;
+    }
+    
+    #footer #f-banner #download #google{
+        width: 182px;
+        height: 56px;
+        background: #E5ECF4;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        gap: 12.1px;
+        padding-top: 8px;
+        padding-left: 16px;
+    }
+    
+    #footer #f-banner .foot-circles{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        gap: 56px;
+        overflow: hidden;
+        flex-shrink: 0;
+        top: 140px;
+        left: 400px;
+    }
+    
+    #footer #foot{
+        background-color: #333A44;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 1271.4px;
+        height: 96px;    
+        justify-content: flex-start;
+        padding-left: 168.6px;
+    }
+    
+    #footer #foot #socials{
+        margin-left: 571px;
+    }
+  }
+  
+  
