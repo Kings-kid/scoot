@@ -1,92 +1,3 @@
-:root{
-    --black02: #939CAA;
-    --black03: #FCB72B;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html, body{
-    height: 100%;
-    font-family: 'Space Mono', monospace;
-    font-family: 'Lexend Deca', sans-serif;
-}
-nav{
-    height: 96px;
-    padding: 0px 165px 0 110px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu-container{
-    display: flex;
-    align-items: center;
-    gap: 58px;
-}
-
-.menu, .menu-top{
-    display: flex;
-    padding: 0;
-    list-style-type: none;
-    gap: 32px;
-}
-
-.menu-top a{
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 25px;
-    color: var(--black02);
-    font-family: 'Space Mono', monospace;
-}
-.menu a{
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 25px;
-    color: var(--black02);
-    font-family: 'Space Mono', monospace;
-}
-
-.menu-top a:hover{
-    color: #FCB72B;
-}
-.menu, a:hover{
-    color: #FCB72B;
-}
-
-.cta-top, .cta{
-    width: 180px;
-    height: 53px;
-    background-color: #FCB72B;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    color: #FFFFFF;
-    text-decoration: none;
-    font-family: 'Space Mono', monospace;
-    font-size: 15px;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 25px
-}
-.cta:hover{
-    border: 3px solid #FCB72B;
-    background-color: transparent;
-    color: #FCB72B;
-}
-.cta-top:hover{
-    border: 3px solid #FCB72B;
-    background-color: transparent;
-    color: #FCB72B;
-}
-nav .menu-container .logo{
-    width: 108px;
-    height: 89px;
-}
 #header-banner{
     height: 650px;
     background-image: url(../images/background-image.png);
@@ -163,11 +74,12 @@ main #one{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 165px;
+    margin-right: 165px;
 }
 .yellow-one{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .yellow-one-img img{
@@ -327,187 +239,9 @@ main #one{
     margin-top: -270px;
     margin-left: 350px;
 }
-footer{
-    margin-top: 178px;
-}
-#footer{
-   height: 300px;
-   background-color: #495567;
-}
-#footer #foot-img{
-    margin-left: 440px;
-    padding: 140px 0px 0px 0px;
-}
-.sign{
-    display: flex;
-    margin-left: 165px;
-    margin-right: 165px;
-    flex-direction: row;
-    align-items: center;
-    gap: 336px;
-    margin-top: -198px;
-}
-#footer h1{
-    color: #FFFFFF;
-    font-family: 'Space Mono', monospace;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: -2.143px;
-    width: 415px;
-}
 
-#foot-tag{
-    display: flex;
-    gap: 18px;
-}
-.sign-up-tag{
-    width: 159px;
-    height: 56px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #E5ECF4;
-}
-.apple h3{
-    color: #495567;
-    font-family: 'Space Mono', monospace;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-.apple h2{
-    color: #495567;
-    font-family: 'Space Mono', monospace;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: -0.9px;
-}
-.apple{
-    margin-left: 11.73px;
-}
-.sign-up-tag img{
-    width: 24.267px;
-    height: 28px;
-}
-.sign-up-tag#sign-up{
-    width: 182px;
-}
-#social{
-    height: 96px;
-    margin-top: -2px;
-    background-color: #333A44;
-    display: flex;
-    align-items: center;
-}
-.menu-container#social-one{
-    margin-left: 100px;
-}
-#social-media{
-    display: flex;
-    margin-left: 620px;
-    gap: 10px;
-}
-#social-media .facebook{
-    width: 24px;
-    height: 24px;
-}
-#social-media .facebook:hover{
-    filter: brightness(100);
-}
-.menu-container .logo#foot-logo{
-    filter: brightness(100);
- }
 
  @media screen and (min-width:769px) and (max-width:1440px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    html, body{
-        height: 100%;
-        font-family: 'Space Mono', monospace;
-        font-family: 'Lexend Deca', sans-serif;
-    }
-    nav{
-        height: 96px;
-        padding: 0px 165px 0 169px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .menu-containertop{
-        display: flex;
-        align-items: center;
-        gap: 58px;
-    }
-    .menu, .menu-top{
-        display: flex;
-        padding: 0;
-        list-style-type: none;
-        gap: 32px;
-    }
-    
-    .menu a{
-        text-decoration: none;
-        font-size: 15px;
-        font-weight: 700;
-        line-height: 25px;
-        color: var(--black02);
-        font-family: 'Space Mono', monospace;
-    }
-    .menu-top a{
-        text-decoration: none;
-        font-size: 15px;
-        font-weight: 700;
-        line-height: 25px;
-        color: var(--black02);
-        font-family: 'Space Mono', monospace;
-    }
-    
-    .menu a:hover{
-        color: #FCB72B;
-    }
-    .menu-top a:hover{
-        color: #FCB72B;
-    }
-    
-    .cta-top, .cta{
-        width: 180px;
-        height: 53px;
-        background-color: #FCB72B;
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-        color: #FFFFFF;
-        text-decoration: none;
-        font-family: 'Space Mono', monospace;
-        font-size: 15px;
-        font-weight: 700;
-        font-style: normal;
-        line-height: 25px
-    }
-    .cta-top:hover{
-        border: 3px solid #FCB72B;
-        background-color: transparent;
-        color: #FCB72B;
-    }
-    .cta:hover{
-        border: 3px solid #FCB72B;
-        background-color: transparent;
-        color: #FCB72B;
-    }
-    nav .menu-container .logo{
-        width: 108px;
-        height: 89px;
-    }
     #header-banner{
         height: 650px;
         background-image: url(../images/background-image.png);
@@ -563,6 +297,11 @@ footer{
     #banner-content #arrow-three{
         padding-top: 100px;
     }
+    #white-bg{
+        height: 50px;
+        margin-top: 110px;
+        background-color: #FFFFFF;
+    }
     main{
         background-color: #FFFFFF;
         margin-top: 0px;
@@ -579,11 +318,12 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin-left: 165px;
+        margin-right: 165px;
     }
     .yellow-one{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
     }
     
     .yellow-one-img img{
@@ -743,123 +483,10 @@ footer{
         margin-top: -270px;
         margin-left: 350px;
     }
-    footer{
-        margin-top: 178px;
-    }
-    #footer{
-       height: 300px;
-       background-color: #495567;
-    }
-    #footer #foot-img{
-        margin-left: 440px;
-        padding: 140px 0px 0px 0px;
-    }
-    .sign{
-        display: flex;
-        margin-left: 165px;
-        margin-right: 165px;
-        flex-direction: row;
-        align-items: center;
-        gap: 336px;
-        margin-top: -198px;
-    }
-    #footer h1{
-        color: #FFFFFF;
-        font-family: 'Space Mono', monospace;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 48px;
-        letter-spacing: -2.143px;
-        width: 415px;
-    }
     
-    #foot-tag{
-        display: flex;
-        gap: 18px;
-    }
-    .sign-up-tag{
-        width: 159px;
-        height: 56px;
-        border-radius: 4px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #E5ECF4;
-    }
-    .apple h3{
-        color: #495567;
-        font-family: 'Space Mono', monospace;
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-    .apple h2{
-        color: #495567;
-        font-family: 'Space Mono', monospace;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 24px;
-        letter-spacing: -0.9px;
-    }
-    .apple{
-        margin-left: 11.73px;
-    }
-    .sign-up-tag img{
-        width: 24.267px;
-        height: 28px;
-    }
-    .sign-up-tag#sign-up{
-        width: 182px;
-    }
-    #social{
-        height: 96px;
-        margin-top: -2px;
-        background-color: #333A44;
-        display: flex;
-        align-items: center;
-    }
-    .menu-container#social-one{
-        margin-left: 100px;
-    }
-    #social-media{
-        display: flex;
-        margin-left: 620px;
-        gap: 10px;
-    }
-    #social-media .facebook{
-        width: 24px;
-        height: 24px;
-    }
-    #social-media .facebook:hover{
-        filter: brightness(100);
-    }
-    .menu-container .logo#foot-logo{
-        filter: brightness(100);
-     }
     
-
  }
 @media screen and (min-width:376px) and (max-width:768px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    html, body{
-        height: 100%;
-        font-family: 'Space Mono', monospace;
-        font-family: 'Lexend Deca', sans-serif;
-    }   
-    nav{
-        height: 96px;
-        padding: 0px 40px 0 39px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
     #header-banner{
         height: 650px;
         background-image: url(../images/background-image.png);
@@ -1085,106 +712,9 @@ footer{
     .two-img#four-img{
         background-image: url(../images/four.png);
     }
-    footer{
-        top: 104px;
-        position: relative;
-    }
-    #footer{
-        background-color: #495567;
-        position: relative;
-        overflow: hidden;
-     }
-     #footer #foot-img{
-        margin-left: -230px;
-        position: absolute;
-    }
-    .sign{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 63px;
-    }
-    #foot-tag{
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: 198px;
-    }
-    .sign h1{
-        text-align: center;
-    }
-    #social{
-        height: 96px;
-        margin-top: -2px;
-        background-color: #333A44;
-        display: flex;
-        align-items: center;
-        position: relative;
-    }
-    .menu-container#social-one{
-        margin-left: 0px;
-    }
-    #social-media{
-        display: flex;
-        margin-left: 620px;
-        gap: 10px;
-        position: absolute;
-    }
-    #social-media .facebook{
-        width: 24px;
-        height: 24px;
-    }
-    #social-media .facebook:hover{
-        filter: brightness(100);
-    }
-    .menu-container .logo#foot-logo{
-        filter: brightness(100);
-     }
 }
-@media screen and (max-width:375px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    html, body{
-        height: 100%;
-        font-family: 'Space Mono', monospace;
-        font-family: 'Lexend Deca', sans-serif;
-    }
-    nav{
-        height: 64px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0px 150px 0px 32px;
-    }
-    .menu-container{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    #menu-bar{
-        width: 20px;
-        height: 16px;
-        background-image: url(../images/menu-bar.svg);
-    }
-    .menu-container .menu-top{
-        display: none;
-        padding: 0;
-        list-style-type: none;
-        gap: 32px;
-    }
-    .menu-container .menu{
-        display: flex;
-        padding: 0;
-        list-style-type: none;
-        gap: 32px;
-    }
-    .cta-top{
-        display: none;
-    }
+@media screen and (min-width:0px) and (max-width:375px){
+    
     #header-banner{
         height: 650px;
         background-image: url(../images/background-image.png);
@@ -1252,14 +782,13 @@ footer{
     main #one{
         display: flex;
         flex-direction: column;
-        margin-left: 0px;
         gap: 48px;
     }
     main #one .yellow-one{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;  
+        align-items: center;
     }
     main #one .yellow-one-img img{
         width: 96px;
@@ -1273,6 +802,8 @@ footer{
         line-height: 25px;
         color: #495567;
         margin-top: 24px;
+        width: 311px;
+        text-align: center;
     }
     main #one .yellow-one p{
         font-family: 'Lexend Deca', sans-serif;
@@ -1359,7 +890,6 @@ footer{
         justify-content: center;
         align-items: center;
         display: flex;
-        /* position: absolute; */
     }
     #three-image{
         width: 311px;
@@ -1395,8 +925,6 @@ footer{
         align-items: center;
     }
     #four{
-        /* position: absolute; */
-        /* top: 500px; */
         margin-top: 1000px;
         display: flex;
         flex-direction: column;
@@ -1406,10 +934,10 @@ footer{
         right: 32px;
         left: 32px;
         overflow: hidden;
+        margin-bottom: 400px;
     }
     .two-img#four-img{
         background-image: url(../images/four.png);
-        /* position: absolute; */
     }
     #four-arrow{
         margin-top: 0px;
@@ -1418,104 +946,5 @@ footer{
         top: 50px;
         left: 230px;
     }
-    footer{
-        margin-top: 400px;
-    }
-    #footer{
-       height: 300px;
-       background-color: #495567;
-    }
-    #footer #foot-img{
-        margin-left: -600px;
-        padding: 140px 0px 0px 0px;
-    }
-    .sign{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 40px;
-        margin-top: -230px;
-    }
-    #footer h1{
-        color: #FFFFFF;
-        font-family: 'Space Mono', monospace;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 32px;
-        letter-spacing: -1.429px;
-        width: 311px;
-        text-align: center;
-    }
-    #foot-tag{
-        gap: 13px;
-    }
-    .sign-up-tag{
-        width: 130px;
-        height: 40px;
-        border-radius: 4px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #E5ECF4;
-    }
-    .apple h3{
-        color: #495567;
-        font-family: 'Space Mono', monospace;
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-    .apple h2{
-        color: #495567;
-        font-family: 'Space Mono', monospace;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 24px;
-        letter-spacing: -0.9px;
-    }
-    .apple{
-        margin-left: 8px;
-    }
-    .sign-up-tag img{
-        width: 20px;
-        height: 24px;
-    }
-    .sign-up-tag#sign-up{
-        width: 150px;
-    }
-    #social{
-        height: 438px;
-        margin-top: -2px;
-        background-color: #333A44;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .menu-bar-bottom{
-        display: none;
-    }
-    .menu-container#social-one{
-        margin-left: 0px;
-        display: flex;
-        flex-direction: column;
-    }
-    #menu-bottom{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    #social-media{
-        display: flex;
-        margin-left: 0px;
-        gap: 10px;
-        margin-top: 85px;
-    }
     
-
 } 
