@@ -1,118 +1,42 @@
-*{
-    box-sizing: border-box;
-    margin:0px;
-}
- 
-html body{
-    font-family: 'Space Mono';
-    height:100%;
-    width:100%;
-    overflow-x: hidden;
-}
-
-#nav-bar{
-    display:flex;
-}
-
-#wrapper{
-    display: flex;
-    gap:5px;
-    margin-top: 40px;
-    margin-left: 100px;
-}
-
-#logo{
-    width: 45px;
-    height: 45px;
-}
-
-#menu{
-    display:flex;
-    list-style: none;
-    gap:55px;
-    margin-left: 192px;
-    margin-top: 53px;
-    font-family: Space Mono;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 25px;
-}
- 
-#menu li a{
-    text-decoration: none;
-    color: #939CAA;
-   /* margin-left: 100px; */
-    margin-top: 53px;
-    font-family: Space Mono;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 25px;
-}
-
-header nav #get-scootin-cta{
-    padding: 14px 45px;
-    text-decoration: none;
-    color: #FFFFFF;
-    background-color: #FCB72B;
-    /* width: 180px; */
-    height: 50px;
-    flex-shrink: 0;
-    margin-left: 550px;
-    margin-top: 50px;
-}
-
-
 #bitman{
-    right:500px;
-    bottom: 180px;
-    margin-top: 50px;
-
+    height: 200px;
+    background-image: url(../images/Bitmap.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #bitman #bitman-img{
-    height:381px;
+    height: 100%;
+    background: rgba(49, 59, 89, 0.75);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 165px;
 } 
-
- #bitman #bitman-img img{
-    width: 100%;
-  
-}
-
 #bitman #bitman-img h1{
-    line-height: 60px;
-    margin-left: 100px;
-    margin-top: -130px;
-    text-transform: capitalize;
-    color: #FFF;
-    font-family: Space Mono;
+    color: #FFFFFF;
+    font-family: 'Space Mono', monospace;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
+    font-style: normal;
     line-height: 56px;
-    letter-spacing: -2.5px;
+    letter-spacing: -2.5px; 
 }
-
-
-
-
 /* first started here..... */
-
-main #layer-banner{
+#one{
+    margin-top: 120px;
+    height: 445px;
+}
+#layer-banner{
     display: grid;
-    grid-template-columns:  1fr 1fr; 
-    gap: 400px;
-
+    grid-template-columns:  1fr 1fr;
+    margin-left: 165px;
+    align-items: center;
+    justify-content: center;
  }
- 
- main #layer-banner .layer-banner-left{
-     margin-left: 100px;
-     margin-top: 160px;
-     position: relative;
- }
-
- main #layer-banner .layer-banner-left h2{
+#layer-banner .layer-banner-left h2{
     color: #495567;
     font-family: Space Mono;
     font-size: 48px;
@@ -127,7 +51,7 @@ main #layer-banner{
     padding-bottom: 20px;
 }
 
-main #layer-banner .layer-banner-left p{
+#layer-banner .layer-banner-left p{
     height:84px;
     font-size: 18px;
     line-height: 25px;
@@ -143,32 +67,40 @@ main #layer-banner .layer-banner-left p{
     font-family: Lexend Deca;  
 }
 
-main .layer-banner-right .fone{
-    border-radius: 200px;
-    width: 65%;
-    margin-bottom: 450px; 
-    position: relative;
+.layer-banner-right{
+    margin-left: 0px;
+}
+.layer-banner-right .fone{
+    width: 445px;
+    height: 445px;
+    border-radius: 445px;
+    margin-left: 20px;
+    /* position: relative; */
 }
 
 main .layer-banner-right .empty{
-    border-radius: 200px;
-    margin-top: -100px;
-    position: absolute;
-    padding: 40px;
+    margin-left: 64px;
+    /* border-radius: 200px;
+    margin-top: -100px; */
+    /* position: absolute; */
+    /* padding: 40px; */
 }
 
 main .layer-banner-right .arrow{
-    margin-top: 220px;
+    margin-top: 307px;
+    margin-left: -735px;
     position: absolute; 
+    /* margin-top: 220px;
+    
     margin-left: -490px;
-    width: 800px;
+    width: 800px; */
     
 }
 
 main .layer-banner-right .cover{
-    margin-top: 185px;
+    margin-top: 272px;
     position: absolute; 
-    margin-left: -506px;
+    margin-left: -750px;
 
 }
 
@@ -178,33 +110,36 @@ main .layer-banner-right .cover{
 
 
 /* second started here..... */
-
-main #layer-banner-second{
+#two{
+    margin-top: 128px;
+}
+#layer-banner-second{
     display: grid;
     grid-template-columns:  1fr 1fr; 
-    gap: 100px; 
 
  }
  
  main #layer-banner-second .layer-banner-second-left{
     margin-top: 0px;
-    position: relative;
-    bottom: 220px;
-    width: 150%;
     
 }
 
 main .layer-banner-second-left .fone{
-    border-radius: 250px;
-    width: 42%;
-    padding: 30px;
+    border-radius: 445px;
+    width: 445px;
+    height: 445px;
+    margin-left: 64px;
+
 }
 
 main .layer-banner-second-left .empty{
-    border-radius: 250px;
-    width: 11%;
+    border-radius: 445px;
+    width: 445px;
+    height: 445px;
     position: relative;
-    padding: 10px;
+    transform: rotate(180deg);
+    margin-left: -370px;
+
 }
 
 main .layer-banner-second-left .arrow{
@@ -221,7 +156,13 @@ main .layer-banner-second-left .cover{
 
 }
 
-main #layer-banner-second .layer-banner-second-left h2{
+.layer-banner-second-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+.layer-banner-second-right h2{
    color: #495567;
    font-family: Space Mono;
    font-size: 48px;
@@ -233,13 +174,9 @@ main #layer-banner-second .layer-banner-second-left h2{
    width: 445px;
    flex-direction: column;
    flex-shrink: 0;
-   padding-bottom: 20px;
-   margin-top: 150px;
-  
-
 }
 
-main #layer-banner-second .layer-banner-second-left p{
+.layer-banner-second-right p{
    height:84px;
    font-size: 18px;
    line-height: 25px;
@@ -263,12 +200,17 @@ main #layer-banner-second .layer-banner-second-left p{
 
 /* Our values starts here..... */
 
-#Our-values #values{
-    position: relative;
-    
+#three{
+    margin-top: 85px;
+    padding: 0px 165px 0px 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
 }
 
-#Our-values #values h1{       
+#three h1{       
     color: #495567;
     text-align: center;
     font-family: Space Mono;
@@ -277,172 +219,71 @@ main #layer-banner-second .layer-banner-second-left p{
     font-weight: 700;
     line-height: 48px;
     letter-spacing: -2.143px;
-    padding: 70px;
 }
-
-main #Our-values #our-values-line{
+#our-values-line{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    gap: 52px;
+}
+.tech{
     display: flex;
-    margin-inline: 200px;
-    gap:60px
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
-main #Our-values #our-values-line .tech img{
-    border-radius: 200px;
-    padding: 25px;
-    margin-left: 50px;
-   
+.tech img{
+    width: 240px;
+    height: 240px;
+    border-radius: 240px;
 }
-
-main #Our-values #our-values-line .tech .back-number{
-    margin-top: 215px;
-    width: 110px;
-    position: absolute;
-    margin-left: -215px;
-   
-}
-
-
-main #Our-values #our-values-line .tech .number{
-    margin-top: 235px;
-    width: 75px;
-    position: absolute;
-    margin-left: -200px;
-   
-}
-
-main #Our-values #our-values-line .tech h2{
+.letter{
+    border-radius: 96px;
+    padding: 34px;
+    margin-top: -60px;
+    background-color: var(--scootcol02);
     color: #495567;
-    text-align: center;
     font-family: Space Mono;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 28px; 
     letter-spacing: -1.071px;
-    width: 350px;
-    padding: 20px;
-    }
-
-    main #Our-values #our-values-line .tech p{
+}
+.tech h2{
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: -1.071px;
+    margin-top: 32px;
+}
+.tech p{
     color: #939CAA;
-    text-align: center;
     font-family: Lexend Deca;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px; 
-    width: 350px;
-
-    }
-
-    main #Our-values #our-values-line .integrity img{
-        border-radius: 200px;
-        padding: 25px;
-        margin-left: 30px;
-       
-    }
-    
-    main #Our-values #our-values-line .integrity .back-number{
-        margin-top: 215px;
-        width: 110px;
-        position: absolute;
-        margin-left: -200px;
-       
-    }
-    
-    
-    main #Our-values #our-values-line .integrity .number{
-        margin-top: 239px;
-        width: 75px;
-        position: absolute;
-        margin-left: -185px;
-       
-    }
-    
-    main #Our-values #our-values-line .integrity h2{
-        color: #495567;
-        text-align: center;
-        font-family: Space Mono;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 28px; 
-        letter-spacing: -1.071px;
-        width: 350px;
-        padding: 20px;
-    }
-    
-    main #Our-values #our-values-line .integrity p{
-        color: #939CAA;
-        text-align: center;
-        font-family: Lexend Deca;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px; 
-        width: 350px;
-    
-    }
-
-    main #Our-values #our-values-line .community img{
-        border-radius: 200px;
-        padding: 25px;
-        margin-left: 30px;
-       
-    }
-    
-    main #Our-values #our-values-line .community .back-number{
-        margin-top: 215px;
-        width: 110px;
-        position: absolute;
-        margin-left: -200px;
-       
-    }
-    
-    main #Our-values #our-values-line .community .number{
-        margin-top: 239px;
-        width: 75px;
-        position: absolute;
-        margin-left: -185px;
-       
-    }
-    
-    main #Our-values #our-values-line .community h2{
-        color: #495567;
-        text-align: center;
-        font-family: Space Mono;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 28px; 
-        letter-spacing: -1.071px;
-        width: 350px;
-        padding: 20px;
-    }
-    
-    main #Our-values #our-values-line .community p{
-        color: #939CAA;
-        text-align: center;
-        font-family: Lexend Deca;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px; 
-        width: 350px;
-    
-    }
+    margin-top: 27px;
+    text-align: center;
+}
 
 /* Our values ends here..... */
 
 
 /* FAQS starts here..... */
 
-#faqs  #faqs-section{
-    position: relative;
-    
+#faqs{
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: 120px;
 }
 
-#faqs  #faqs-section h1{       
+#faqs h1{       
     color: #495567;
     text-align: center;
     font-family: Space Mono;
@@ -451,16 +292,17 @@ main #Our-values #our-values-line .tech h2{
     font-weight: 700;
     line-height: 48px;
     letter-spacing: -2.143px;
-    padding: 70px;
 }
 
- main #faqs #faqs-section-page{
+ #faqs #faqs-section-page{
     display: flex;
-    margin-inline: 200px;
-    gap:200px
+    height: 407px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 64px;
 } 
 
-main #faqs #faqs-section-page .works h1{       
+#faqs-section-page h1{       
     color: #495567;
     width: 350px;
     text-align: center;
@@ -470,32 +312,30 @@ main #faqs #faqs-section-page .works h1{
     font-weight: 700;
     line-height: 48px;
     letter-spacing: -1.786px;
-    display: flex;
-    
 }
-
-main #faqs  #faqs-section-page .download h2{
+.download{
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.download .download-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F5F9;
+}
+.download .download-content h2{
     color: #495567;
     font-family: Space Mono;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 28px; 
-    letter-spacing: -1.071px;
-    background-color: #F2F5F9;
-    flex-shrink: 0;
-    padding: 20px;
-    
-  
+    padding: 32px 40px 24px 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
-#faqs  #faqs-section-page  .download img{
-    margin-left: 230px;
-
-}
-
-#faqs  #faqs-section-page  .download p{
-    background-color: #F2F5F9;
+.download .download-content p{
     color: #495567;
     font-family: Lexend Deca;
     font-size: 15px;
@@ -503,6 +343,18 @@ main #faqs  #faqs-section-page .download h2{
     font-weight: 400;
     line-height: 25px; 
     width: 650px;
+    padding: 0px 40px 32px 40px;
+}
+
+
+/* #faqs  #faqs-section-page  .download img{
+    margin-left: 230px;
+
+}
+
+#faqs  #faqs-section-page  .download p{
+    background-color: #F2F5F9;
+    
     padding: 20px;
 }
 
@@ -543,7 +395,7 @@ main #faqs  #faqs-section-page .download h2{
 #faqs  #faqs-section-page  .download .age img{
     margin-left: 205px;
 
-}
+} */
 
 main #faqs #faqs-section-page .driving h1{       
     color: #495567;
@@ -637,172 +489,3 @@ main #faqs  #faqs-section-page .helmet h2{
 
 /* footer starts here..... */
 
-footer #foot{
-    width: 100%;
-    height: 300px;
-    flex-shrink: 0;
-    background-color: #495567;
-    margin-top: 100px;
-    display: grid;
-    grid-template-columns:  1fr 1fr;
-    
-}
-
-footer #foot-page h1{
-    color: #FFF;
-    font-family: Space Mono;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 48px; 
-    letter-spacing: -2.143px;
-    /* width: 415px; */
-    padding: 70px;
-    margin-left: 150px;
-}
-   
-footer #foot .logo{
-    display: flex;    
-}
-
-footer #foot #logo .one{
-    display: flex;
-    gap:20px;
-    flex-direction: row;
-    margin-top:100px;
-    margin-left: 150px;
-    
-}
-
-footer #foot #logo .one .logo-one{
-    width: 24.267px;
-    height: 28px;
-    flex-shrink: 0;
-    
-}
-
-footer #foot #logo .one .logo-two img{
-    /* margin-right: -100px; */
-    
-}
-
-
-footer #foot #logo .one .logo-one .store{
-    margin-left:30px;
-    /* right: -400px; */
-    display: flex;
-  
-}
-
-footer #foot #logo .one .logo-one img{
-    margin-top: -20px;
-    top: 100px;
-    margin-right: -100px;
-    padding: 13px;
-    
-}
-
-footer #foot #logo .one .appstore p{
-    color: #495567;
-    font-family: Space Mono;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.446px;
-    
-}
-
-footer #foot #logo .one .appstore h1{
-    color: #495567;
-    font-family: Space Mono;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px; 
-    letter-spacing: -0.893px;
-    margin-left: px;
-}
-
-
-/* nav footer starts here */ 
-
-#nav-bar-footer{
-    display:flex;
-    background: #333A44;
-    /* margin-left: 150px; */
-}
-
-#wrapa{
-    display: flex;
-    gap:10px;
-    margin-top: 40px;
-    margin-left: 200px;
-    
-
-}
-
-#logo-foot{
-    width: 45px;
-    height: 45px;
-    
-}
-
-#menu-two{
-    display:flex;
-    list-style: none;
-    gap:0px;
-    margin-left: px;
-    margin-top: 40px;
-    font-family: Space Mono;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 25px;
-
-}
- 
-#menu-two li a{
-    text-decoration: none;
-    color: #939CAA;
-    margin-left: 100px; 
-   margin-top: 53px;
-   font-family: Space Mono;
-   font-size: 15px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: 25px;
-}
-
-
-#nav-bar-footer #group{
-    text-decoration: none;
-    color: #939CAA;
-    margin-left: 420px; 
-   margin-top: 40px;
-
-}
-
-/* nav footer ends here */ 
-
-
-/*footer rings Starts here */ 
- 
-footer #foot #logo .one .ring-one{
-margin-left: -860px;
-margin-top: 40px;
-}
-
-footer #foot #logo .one .ring-two{
-    margin-right: 50px;
-    margin-top: 40px;
-}
-
-footer #foot #logo .one .ring-two{
-     margin-left: 90px;
-     margin-top: 40px;
-}
-/*footer rings ends here */ 
-
-
-/* footer ends here..... */
